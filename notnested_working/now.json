@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "name": "error",
+  "public": true,
+  "builds": [
+    { "src": "backend/**/*.js", "use": "@now/node" },
+    {
+      "src": "package.json",
+      "use": "@now/next"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/api/(.*)",
+      "dest": "backend/api/$1.js"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "name" : "nested-working",
+  "license" : "BSD-3-Clause",
+  "dependencies": {
+    "moment": "^2.24.0"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name" : "nested-working",
+  "license" : "BSD-3-Clause",
+  "scripts": {
+    "test": "curl -X GET \"http://localhost:3000/api/index?year=2019\""
+  },
+  "dependencies": {
+    "next": "^8.0.3",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "@zeit/next-less": "^1.0.1",
+    "less": "^3.9.0"
+  }
+}
