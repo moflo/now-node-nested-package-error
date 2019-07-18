@@ -1,6 +1,11 @@
-### Now-Build Nested Dependency Error
+# Now-Build Nested Dependency Error
 
 Example to demonstrate errors with `@now/node@canary` build with nested dependencies.
+
+Exmaples are a now hosted Next app with a simple API backend that has one external package dependency, `momentjs`. If the backend API endpoint JS imports this dependency from an external file, a runtime error is thrown.
+
+No error is thrown when building with `@now/node@0.11.1` 
+
 
 ### Working Example: No Nested Dependencies
 
