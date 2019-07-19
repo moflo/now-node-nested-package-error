@@ -3,7 +3,7 @@
   "name": "error",
   "public": true,
   "builds": [
-    { "src": "backend/**/*.js", "use": "@now/node@0.11.1" },
+    { "src": "backend/**/*.js", "use": "@now/node@canary" },
     {
       "src": "package.json",
       "use": "@now/next"

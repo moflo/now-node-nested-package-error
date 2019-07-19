@@ -1,7 +1,5 @@
 const url = require("url");
-// import { moment_extern } from "./TimeManager";
-
-const moment_extern = require("moment");
+const { moment_extern } = require("./TimeManager");
 
 module.exports = async (req, res) => {
   const { query } = url.parse(req.url, true);
